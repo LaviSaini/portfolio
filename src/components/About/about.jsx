@@ -30,7 +30,7 @@ const About = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Feb 1998</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Feb 2000</span></li>
                                     {/* <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> */}
                                     <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+917827865868" className="linksCOlor">+91 7827865868</a></span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>Meet nagar, East gokulpur, Delhi-110094 </span></li>
