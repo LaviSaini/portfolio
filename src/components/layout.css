@@ -1,0 +1,52 @@
+.layout-container {
+    display: flex;
+    flex-direction: column; /* default for mobile */
+  }
+  
+  /* Header by default hidden on small screens */
+  /* .header {
+    width: 100%;
+  } */
+  
+  /* Main content full width on small screens */
+  .main-content {
+    width: 100%;
+  }
+  
+  /* Responsive styles for large screens */
+  @media (min-width: 1200px) {
+    .layout-container {
+      flex-direction: row;
+      height: 100vh;
+      overflow: auto;
+    }
+  
+    .header {
+      width: 300px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      overflow-y: auto;
+    }
+  
+    .main-content {
+      margin-left: 300px;
+      width: calc(100% - 300px);
+      height: 100vh;
+      overflow-y: auto;
+    }
+  }
+  
+
+  #navmenu a {
+    cursor: pointer;
+  }
+
+  .bi-x::before {
+    content: "\f62a";
+}
+  
+
+
