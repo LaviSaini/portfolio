@@ -12,6 +12,7 @@ import Contact from './Contact/contact';
 
 const Layout = () => {
 
+  
   const [activeSection, setActiveSection] = useState('hero');
 
   useEffect(() => {
