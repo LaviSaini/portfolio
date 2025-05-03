@@ -5,12 +5,13 @@ import './App.css'
 import Header from './components/Header/header'
 import Home from './components/Home/home'
 import Layout from './components/Layout'
-
+import SocialLinks from './components/Social/SocialLinks'
 function App() {
 
   return (
     <>
       {/* <Header /> */}
+      <SocialLinks/>
       <Layout />
     </>
   )
