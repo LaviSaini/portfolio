@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 
-import './Layout.css';
+import './layout.css';
 import Header from './Header/header';
 import Home from './Home/home';
 import About from './About/about';
@@ -12,7 +12,7 @@ import Contact from './Contact/contact';
 
 const Layout = () => {
 
-  
+
   const [activeSection, setActiveSection] = useState('hero');
 
   useEffect(() => {
