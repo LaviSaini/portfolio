@@ -30,7 +30,7 @@ const About = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Feb 2000</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 Feb 2001</span></li>
                                     {/* <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> */}
                                     <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+917827865868" className="linksCOlor">+91 7827865868</a></span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Address:</strong> <span>Meet nagar, East gokulpur, Delhi-110094 </span></li>
@@ -38,7 +38,7 @@ const About = () => {
                             </div>
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>27</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:nishkarshjangid64278@gmail.com" className="linksCOlor">nishkarshjangid64278@gmail.com</a></span></li>
                                     {/* <li><i className="bi bi-chevron-right"></i> <strong>Social Media:</strong><a href="https://www.instagram.com/yogacoach_nishkarsh?igsh=MTkxaTNlbTRtZDQzMA%3D%3D&utm_source=qr" target="_blank" className="linksCOlor">insta-@yogacoach_nishkarsh </a></li> */}
