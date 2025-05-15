@@ -5,6 +5,7 @@ const About = () => {
 
 
     return (
+
         <section id="about" className="about section">
 
             <div className="container section-title" data-aos="fade-up">

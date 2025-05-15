@@ -233,7 +233,7 @@ h6 {
 @media (max-width: 1200px) {
   .header {
     left: -100%;
-    width: unset ;
+    width: unset;
   }
 }
 
@@ -1301,11 +1301,11 @@ section,
   color: blue;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-.portfolio-content img{
+.portfolio-content img {
   width: 500px;
   height: auto;
 }
@@ -1317,13 +1317,27 @@ a{
 }
 
 @media (max-width:992px) {
-  .aboutImg{
-    display:flex;
+  .aboutImg {
+    display: flex;
     justify-content: center;
   }
 
-  .aboutImg img{
-height: 300px;
+  .aboutImg img {
+    height: 300px;
   }
-  
+
+}
+
+.section {
+  scrollbar-width: none;
+}
+
+@media (max-width:769px) {
+  .stats .stats-item {
+    padding: 16px;
+  }
+}
+
+#stats{
+  margin-bottom: 18px;
 }
